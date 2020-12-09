@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lyminigames">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="150dp"
+                    android:id="@+id/lyminigames_normalgame"
+                    android:background="@drawable/layout_minigames_games"
+                    android:layout_width="150dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        app:srcCompat="@drawable/ball_classic_white"
+                        android:id="@+id/ivminigames_normalgame"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <TextView
+                        android:text="@string/txtTypeClassicLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtminigames_normalgame"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="150dp"
+                    android:id="@+id/lyminigames_gyrogame"
+                    android:background="@drawable/layout_minigames_games"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        app:srcCompat="@drawable/gyroscope"
+                        android:id="@+id/ivminigames_gyrogame"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <TextView
+                        android:text="@string/txtTypeGyroscopeLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtminigames_gyrogame"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="150dp"
+                    android:id="@+id/lyminigames_bombgame"
+                    android:background="@drawable/layout_minigames_games"
+                    android:layout_width="150dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        app:srcCompat="@drawable/bomb_white"
+                        android:id="@+id/ivminigames_bombgame"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <TextView
+                        android:text="@string/txtTypeBombLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtminigames_bombgame"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="150dp"
+                    android:id="@+id/lyminigames_teleportgame"
+                    android:background="@drawable/layout_minigames_games"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        app:srcCompat="@drawable/teleport"
+                        android:id="@+id/ivminigames_teleportgame"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <TextView
+                        android:text="@string/txtTypeTeleportLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtminigames_teleportgame"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

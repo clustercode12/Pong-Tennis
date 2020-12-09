@@ -1,0 +1,109 @@
+<resources>
+    <string name="appName">Pong Tennis</string>
+    <string name="classLevel">Worlds</string>
+    <string name="ballClassic">Classic Ball</string>
+    <string name="ballClassicGreen">Classic Ball Green</string>
+    <string name="ballClassicPink">Classic Ball Pink</string>
+    <string name="txtLevelSplashScreen">LEVEL</string>
+    <string name="txtGoalInfoPopUp1">GET</string>
+    <string name="txtGoalInfoPopUp2">POINTS</string>
+    <string name="txtStartPopUp">LET´S PLAY!</string>
+    <string name="classShop">Characters</string>
+    <string name="txtReplayPopUp">LET´S RETRY!</string>
+
+    //SharedPreferences Level
+    <string name="SharedPreferences" translatable="false">sharedPreferences</string>
+    <string name="level" translatable="false">level</string>
+    <string name="conseguido" translatable="false">conseguido</string>
+    <string name="btLevel" translatable="false">btLevel</string>
+    <string name="character" translatable="false">character</string>
+    <string name="firstTime2" translatable="false">firstTime2</string>
+    <string name="firstTime5" translatable="false">firstTime5</string>
+    <string name="firstTime10" translatable="false">firstTime10</string>
+    <string name="firstTime15" translatable="false">firstTime15</string>
+    <string name="firstTime17" translatable="false">firstTime17</string>
+    <string name="firstTime20" translatable="false">firstTime20</string>
+    <string name="firstTime25" translatable="false">firstTime25</string>
+    <string name="firstTime30" translatable="false">firstTime30</string>
+    <string name="firstTime35" translatable="false">firstTime35</string>
+    <string name="worldMainAnimation" translatable="false">worldmainanimation</string>
+    <string name="musicBackgroundIsPlaying" translatable="false">musicBackgroundIsPlaying</string>
+    <string name="ad_interstitial_level" translatable="false">ca-app-pub-3733751731897567/2336142137</string>
+    <string name="ad_interstitial_main" translatable="false">ca-app-pub-3733751731897567/5572028531</string>
+
+    //Translator
+    <string name="txtCongratulationPopUp">CONGRATULATIONS!</string>
+    <string name="ballTypeBallClassic">Classic Ball</string>
+    <string name="ballTypeGreen">Green</string>
+    <string name="ballTypePink">Pink</string>
+    <string name="txtLevelUnlockCharacter">CONTINUE YOUR ADVENTURE AND UNLOCK IT</string>
+    <string name="txtGoalLevelInfoPopUp">Avoids the Bombs</string>
+    <string name="AND">and</string>
+    <string name="txtTypeClassicLevel">Classic Game</string>
+    <string name="txtTypeBombLevel">Bomb Game</string>
+    <string name="txtTypeGyroscopeLevel">Gyroscope Game</string>
+    <string name="txtTypeKingLevel">King Game</string>
+    <string name="txtGoalInfoPopUpKing">WIN TO</string>
+    <string name="guardFire" translatable="false">Guard of Fire</string>
+    <string name="classWorld1">World 1</string>
+    <string name="world1">WORLD 1</string>
+    <string name="world2">WORLD 2</string>
+    <string name="world3">WORLD 3</string>
+    <string name="world4">WORLD 4</string>
+    <string name="world1type">PONG WORLD</string>
+    <string name="world2type">FIRE WORLD</string>
+    <string name="world3type">WATER WORLD</string>
+    <string name="world4type">COMING SOON</string>
+    <string name="classWorld2">World 2</string>
+    <string name="classWorld3">World 3</string>
+    <string name="ballGuard">Guardian</string>
+    <string name="ballClassicRed">Classic Ball Red</string>
+    <string name="ballTypeRed">Red</string>
+    <string name="ballClassicAmbar">Classic Ball Ambar</string>
+    <string name="ballTypeAmbar">Ambar</string>
+    <string name="levelClass">Level</string>
+    <string name="ballRainbow">Rainbow Ball</string>
+    <string name="ballGuardFire">Guardian Of Fire</string>
+    <string name="ballVampire">Vampire Ball</string>
+    <string name="ballGodHades">God Hades</string>
+    <string name="ballTypeRainbow2">Ball</string>
+    <string name="ballTypeRainbow">Rainbow</string>
+    <string name="ballTypeGuardOf">Guardian Of</string>
+    <string name="ballTypeFire">Fire</string>
+    <string name="ballTypeVampire">Vampire</string>
+    <string name="ballTypeVampire2">Ball</string>
+    <string name="ballTypeGodHades">God Hades</string>
+    <string name="txtTypeTeleportLevel">Teleport Game</string>
+    <string name="ballClassicBlue">Classic Ball Blue</string>
+    <string name="ballWorld">World Ball</string>
+    <string name="ballGuardWater">Guardian Of Water</string>
+    <string name="ballIce">Ice Ball</string>
+    <string name="ballGodPoseidon">God Poseidon</string>
+    <string name="ballTypeBlue">Blue</string>
+    <string name="ballTypeWater">Water</string>
+    <string name="txtTypeBombGyroLevel">Bomb + Gyroscope Game</string>
+    <string name="txtTypeTeleBoomLevel">Tele + Bomb Game</string>
+    <string name="txtGoalInfoPopUpGyro">Rotate the Phone</string>
+    <string name="txtGoalInfoPopUpMix">A 2x1 Game!</string>
+    <string name="txtCongratulationPopUpLevelComplete">Complete!</string>
+    <string name="levelCongratulation">Level</string>
+    <string name="txtCongratulationPopUpLevelPresentTitle1">This Present Is</string>
+    <string name="txtCongratulationPopUpLevelPresentTitle2">For You!</string>
+    <string name="txtCongratulatonPopUpLevelPresentRadioButton">Equip</string>
+    <string name="miSettings">Settings</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="miAbout">About</string>
+    <string name="music">Music</string>
+    <string name="txtMusicProvidedByNoCopyrightSounds">Provided by NoCopyrightSounds</string>
+    <string name="classMinigames">Minigames</string>
+    <string name="pointsNormal" translatable="false">pointsNormal</string>
+    <string name="pointsBomb" translatable="false">pointsBomb</string>
+    <string name="pointsGyro" translatable="false">pointsGyro</string>
+    <string name="pointsKing" translatable="false">pointsKing</string>
+    <string name="pointsTeleport" translatable="false">pointsTeleport</string>
+    <string name="best">BEST</string>
+    <string name="coins">COINS</string>
+    <string name="getmore">GET MORE</string>
+    <string name="coin" translatable="false">coin</string>
+</resources>

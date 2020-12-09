@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anpapps.pongtennis.About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart"
+            android:text="@string/music" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height= "2dp"
+            android:background="#000000" />
+
+        <TextView
+            android:text="Electro-Light - Symbolism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/txtMusicProvidedByNoCopyrightSounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://www.youtube.com/watch?v=__CRWE-L45k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:autoText="false"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp" />
+
+        <TextView
+            android:text="Electro-Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://www.facebook.com/ElectroLightOfficial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://soundcloud.com/maskedacoustic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://twitter.com/ElectroLightEDM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://www.youtube.com/user/ElectroLightOfficial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="13dp"
+            android:layout_height= "2dp"
+            android:background="@android:color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+
+        <TextView
+            android:text="DEAF KEV - Invincible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/txtMusicProvidedByNoCopyrightSounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://www.youtube.com/watch?v=J2X5mJ3HDYE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:autoText="false"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp" />
+
+        <TextView
+            android:text="DEAF KEV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://soundcloud.com/atm-dubstep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://www.facebook.com/ATMDubstep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://www.youtube.com/user/ATMDubstep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="13dp"
+            android:layout_height= "2dp"
+            android:background="@android:color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+
+        <TextView
+            android:text="Different Heaven - Nekozilla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/txtMusicProvidedByNoCopyrightSounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://www.youtube.com/watch?v=6FNHe3kf8_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:autoText="false"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp" />
+
+        <TextView
+            android:text="Different Heaven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="https://www.facebook.com/DifferentHeaven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://www.youtube.com/user/Differentheaven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:text="https://twitter.com/DifferentHeaven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lyMain"
+    tools:context="com.anpapps.pongtennis.Main"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:src="@drawable/pong_tennis"
+        app:srcCompat="@drawable/pong_tennis"
+        android:contentDescription="@drawable/pong_tennis"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.13"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/ibtStart"
+        android:drawable="@drawable/bt_start"
+        android:background="@color/colorTransparent"
+        android:contentDescription="@drawable/bt_start"
+        tools:layout_conversion_absoluteX="117dp"
+        tools:layout_conversion_absoluteY="330dp"
+        tools:layout_conversion_absoluteWidth="150dp"
+        tools:layout_conversion_absoluteHeight="150dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/bt_start"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:id="@+id/ibtCharacter"
+        android:src="@drawable/bt_character"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@drawable/bt_character"
+        android:contentDescription="@drawable/bt_character"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        tools:layout_conversion_absoluteX="16dp"
+        tools:layout_conversion_absoluteY="330dp"
+        tools:layout_conversion_absoluteWidth="100dp"
+        tools:layout_conversion_absoluteHeight="100dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/ibtStart"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="@+id/ibtStart"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/ibtMinigames"
+        android:src="@drawable/bt_minigames"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@drawable/bt_minigames"
+        android:contentDescription="@drawable/bt_minigames"
+        tools:layout_conversion_absoluteX="268dp"
+        tools:layout_conversion_absoluteY="330dp"
+        tools:layout_conversion_absoluteWidth="100dp"
+        tools:layout_conversion_absoluteHeight="100dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/ibtStart"
+        app:layout_constraintTop_toTopOf="@+id/ibtStart"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anpapps.pongtennis.Level"
+    android:scrollbars="none"
+    android:id="@+id/lyWorld1"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:fillViewport="false"
+            android:measureAllChildren="false">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="none"
+                        android:weightSum="1"
+                        android:layout_weight="1">
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+
+                        <ImageView
+                            android:layout_height="10dp"
+                            android:id="@+id/ivPasos1"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="10dp" />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:id="@+id/ivPasos2"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="10dp" />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:id="@+id/ivPasos3"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="28dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="1"
+                            android:id="@+id/bt1"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos4"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="3dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos5"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos6"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos7"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="2"
+                            android:id="@+id/bt2"
+                            android:layout_marginTop="20dp"
+                            android:textSize="25sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos8"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos9"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos10"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="15dp" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:layout_width="100dp"
+                                android:layout_height="50dp"
+                                android:text="3"
+                                android:id="@+id/bt3"
+                                android:layout_marginTop="25dp"
+                                android:textSize="18sp" />
+
+                            <Space
+                                android:layout_width="20px"
+                                android:layout_height="20px" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos11"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="15dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos12"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="30dp" />
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scrollbars="none"
+                        android:layout_gravity="top">
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos13"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos14"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="15dp" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:layout_width="100dp"
+                                android:layout_height="50dp"
+                                android:text="6"
+                                android:id="@+id/bt6"
+                                android:layout_marginTop="20dp"
+                                android:textSize="18sp" />
+
+                            <Space
+                                android:layout_width="20px"
+                                android:layout_height="20px" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos15"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="25dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos16"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos17"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="5"
+                            android:id="@+id/bt5"
+                            android:layout_marginTop="10dp"
+                            android:textSize="25sp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos18"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos19"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos20"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="15dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="4"
+                            android:id="@+id/bt4"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos21"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="20dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos22"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos23"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="20dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos24"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top|center_vertical"
+                            android:layout_marginLeft="0dp" />
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:scrollbars="none"
+                        android:layout_weight="3.33">
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos25"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top|center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos26"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="7"
+                            android:id="@+id/bt7"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos27"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos28"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="8"
+                            android:id="@+id/bt8"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos29"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos30"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="7dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos31"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos32"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos33"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="15dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="9"
+                            android:id="@+id/bt9"
+                            android:layout_marginBottom="20dp"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos34"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos35"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos36"
+                            android:src="@drawable/pasos"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="bottom" />
+
+                        <Space
+                            android:layout_width="20px"
+                            android:layout_height="20px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:scrollbars="none"
+                        android:layout_weight="1">
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.16"
+                            android:id="@+id/sp1" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos48"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos47"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos46"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="15dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos38"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="12"
+                            android:id="@+id/bt12"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos39"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos40"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos41"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="11"
+                            android:id="@+id/bt11"
+                            android:layout_marginTop="20dp"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos42"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos43"
+                            android:src="@drawable/pasos"
+                            android:layout_marginBottom="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="10"
+                            android:id="@+id/bt10"
+                            android:textSize="25sp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos44"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos45"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginBottom="10dp" />
+
+                        <Space
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:scrollbars="none"
+                        android:layout_weight="1" >
+
+                        <Space
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivPasos37"
+                            android:src="@drawable/pasos"
+                            android:layout_marginBottom="25dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView13"
+                            android:src="@drawable/pasos"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="13"
+                            android:id="@+id/bt13"
+                            android:textSize="18dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="35dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView2"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="30dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView3"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="14"
+                            android:id="@+id/bt14"
+                            android:textSize="18dp"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView4"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView5"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="5dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView6"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView7"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:text="15"
+                            android:id="@+id/bt15"
+                            android:textSize="25dp"
+                            android:layout_marginTop="30dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView8"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="50dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView9"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="42dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView10"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="53dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView11"
+                            android:src="@drawable/pasos"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp" />
+
+                        <Space android:layout_height="20px"
+                            android:layout_width="40dp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/llayWorld1To2"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:id="@+id/ivWorld1To2"
+                                android:src="@drawable/world_2_image"
+                                android:layout_marginTop="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/world2type"
+                                android:id="@+id/txtWorld1To2"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000000"
+                                android:textSize="28sp" />
+
+                            <Space
+                                android:layout_width="5dp"
+                                android:layout_height="20dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView12"
+                                android:src="@drawable/pasos"
+                                android:layout_gravity="top"
+                                android:layout_marginTop="20dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView96"
+                                android:src="@drawable/pasos"
+                                android:layout_gravity="top"
+                                android:layout_marginTop="5dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</RelativeLayout>
